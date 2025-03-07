@@ -342,7 +342,7 @@ img {
 /* Media Query for 768px */
 @media (max-width: 768px) {
     body {
-        min-width: 768px;
+        width: 768px;
         height: 1169.29px;
         background-position-x: 50%;
         background-position-y: 50%;
