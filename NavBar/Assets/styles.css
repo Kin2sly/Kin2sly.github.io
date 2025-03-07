@@ -211,9 +211,15 @@ img {
 /* Media Query for 2140px */
 @media (max-width: 2140px) {
     .main-container {
-        width: 100%;
+        display: flex;
+        justify-content: center;
         height: 100%;
-        padding: 0 152px;
+        padding: 0 80px;
+    }
+
+    .navbar {
+        display: flex;
+        width: 2140px;
     }
 }
 
@@ -267,7 +273,6 @@ img {
     }
 
     .main-container {
-        margin-top: 24px;
         /* margin-left: -12px;
         margin-right: -12px; */
         /* padding: 0 26px; */
@@ -278,9 +283,11 @@ img {
 
     .navbar {
         flex-direction: column;
+        /* display: flex; */
         align-items: start;
+        width: 1024px;
         gap: 10px;
-        /* flex-wrap: wrap; */
+        flex-wrap: wrap;
 
 
 
@@ -304,9 +311,16 @@ img {
 
 
     .hero-title h1 {
+        position: relative;
+        top: -35px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
         padding-left: 25px;
-        font-size: 74px;
+        font-size: 70px;
         line-height: 80px;
+        
+;
 
     }
 
