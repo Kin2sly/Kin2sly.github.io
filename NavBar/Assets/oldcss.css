@@ -92,38 +92,36 @@ body {
 
 /* Hero Section Styles */
 .hero {
+    padding: 100px 0;
     min-height: 80vh;
     display: flex;
     align-items: center;
-    padding: 110px 0 120px 125px;
-
 }
 
 .hero-container {
     width: 100%;
-
     max-width: 1200px;
+    margin: 0 auto;
     padding: 0 15px;
 }
 
 .hero-content h1 {
-    font-size: 5.5rem;
-    font-weight: bold;
-    line-height: 6.24rem;
-    margin-bottom: 15px;
-    color: #141d38;
+    font-size: 3.5rem;
+    font-weight: 800;
+    line-height: 1.2;
+    margin-bottom: 30px;
+    color: #333333;
 }
 
 .hero-content h1 span {
-    color: #5484ff;
+    color: #007bff;
 }
 
 .hero-paragraph p {
-    font-size: 1.25rem;
-    line-height: 2.19rem;
-    color: #737887;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #666666;
     margin-bottom: 30px;
-    font-weight: 500;
 }
 
 /* Responsive Styles */
@@ -154,7 +152,7 @@ body {
         max-width: 1978px;
     }
     .hero-content h1 {
-        font-size: 5.5rem;
+        font-size: 3rem;
     }
     .container {
         padding: 0 20px;
@@ -171,25 +169,14 @@ body {
         max-width: 1380px;
     }
     .navbar {
-        /* margin-top: 24px; */
-        display: flex;
-        justify-content: center;
-        padding: 24px 15px;
-        margin: 24px 0 0;
-        /* margin-bottom: 15px; */
+        margin: 24px 20px 0;
+        padding: 20px 15px;
     }
     .container {
         gap: 20px;
     }
-    .hero {
-    min-height: 80vh;
-    display: flex;
-    justify-content: top;
-    align-items: start;
-    padding: 110px 0 120px ;
-    }
     .hero-content h1 {
-        font-size: 5.5rem;
+        font-size: 2.8rem;
     }
 }
 @media screen and (max-width: 1200px) {
