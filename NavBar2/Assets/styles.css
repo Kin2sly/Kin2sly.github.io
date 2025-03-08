@@ -230,10 +230,22 @@ body {
     body {
         background-position-x: 50%;
         background-position-y: 50%;
+<<<<<<< HEAD
         background-size: cover;
         background-repeat: no-repeat;
         height: 1169.74px;
         max-width: 768px;
+=======
+
+    }
+
+    .main-container {
+        max-width: 768px;
+        /* margin-top: 24px;
+        margin-left: -12px;
+        margin-right: -12px;
+        padding-left: 16px; */
+>>>>>>> aae234149fd1cf914a117f99922eac2acc4e22c0
     }
 
     .navbar {
