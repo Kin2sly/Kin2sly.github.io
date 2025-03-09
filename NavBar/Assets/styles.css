@@ -219,10 +219,14 @@ body {
         font-size: 14px;
     }
     .hero-content h1 {
-        font-size: 2.5rem;
+        font-size: 74px;
+        margin-bottom: 15px;
+        line-height: 83.99px;
     }
     .hero-paragraph p {
-        font-size: 1.1rem;
+        font-size: 20px;
+        margin-bottom: 20px;
+        line-height: 35px;
     }
 }
 
@@ -256,11 +260,14 @@ body {
         font-size: 14px;
     }
     .hero-content h1 {
-        font-size: 2rem;
-        margin-bottom: 20px;
+        font-size: 64px;
+        margin-bottom: 15px;
+        line-height: 76.8px;
     }
     .hero-paragraph p {
-        font-size: 1rem;
+        font-size: 20px;
+        margin-bottom: 20px;
+        line-height: 35px;
     }
 }
 
@@ -297,12 +304,15 @@ body {
         padding: 60px 0;
     }
     .hero-content h1 {
-        font-size: 1.8rem;
+        font-size: 54px;
         margin-bottom: 15px;
+        line-height: 64.8px;
+
     }
     .hero-paragraph p {
-        font-size: 0.9rem;
+        font-size: 20px;
         margin-bottom: 20px;
+        line-height: 35px;
     }
 }
 
