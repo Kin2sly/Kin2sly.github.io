@@ -245,8 +245,8 @@ body {
         padding: 15px;
     }
     .navbar-brand img {
-        height: 35px;
-        width: 130px;
+        height: 41.08px;
+        width: 150px;
     }
     .container {
         gap: 15px;
@@ -281,13 +281,13 @@ body {
         max-width: 480px;
     }
     .navbar {
-        margin: 10px 10px 0;
-        padding: 10px;
-        border-radius: 20px;
+        margin: 24px 10px 0;
+        padding: 20px;
+        border-radius: 40px;
     }
     .navbar-brand img {
-        height: 30px;
-        width: 110px;
+        height: 41.08px;
+        width: 150px;
     }
     .container {
         gap: 10px;
@@ -304,9 +304,9 @@ body {
         padding: 60px 0;
     }
     .hero-content h1 {
-        font-size: 54px;
+        font-size: 40px;
         margin-bottom: 15px;
-        line-height: 64.8px;
+        line-height: 49.6px;
 
     }
     .hero-paragraph p {
@@ -316,4 +316,49 @@ body {
     }
 }
 
+@media screen and (max-width: 430px) {
+    body {
+        background-position-x: 50%;
+        background-position-y: 50%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 991.07px;
+        max-width: 430px;
+    }
+    .navbar {
+        margin: 24px 10px 0;
+        padding: 22px 15px;
+        border-radius: 60px;
+        max-width: 480px;
+    }
+    .navbar-brand img {
+        height: 41.08px;
+        width: 150px;
+    }
+    .container {
+        gap: 30px;
+    }
+    .nav-link {
+        margin: 0 3px;
+        font-size: 12px;
+    }
+    .nav-btn .btn {
+        padding: 6px 15px;
+        font-size: 13px;
+    }
+    .hero {
+        padding: 60px 0;
+    }
+    .hero-content h1 {
+        font-size: 40px;
+        margin-bottom: 15px;
+        line-height: 49.6px;
+
+    }
+    .hero-paragraph p {
+        font-size: 20px;
+        margin-bottom: 20px;
+        line-height: 35px;
+    }
+}
 
