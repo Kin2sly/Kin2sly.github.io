@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jomacs Registration Form</title>
+    <link rel="stylesheet" href="./Assets/Styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;700;800;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    
+    <main class="container">
+        <section class="formContent">
+            <form class="form" action="#" method="post">
+                <h1 class="formTitle">Jomacs Student Registration Form</h1>
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    <div class="formField">
+                        <label for="Fname">Full Name</label>
+                        <span class="inputWrapper">
+                            <input type="text" id="Fname" name="Fname" placeholder="Enter your full name"
+                                autocomplete="name" required>
+                            <i class='bx bxs-user'></i>
+                        </span>
+                    </div>
+
+                    <div class="formField">
+                        <label for="email">Email</label>
+                        <span class="inputWrapper">
+                            <input type="email" id="email" name="email" placeholder="Enter your email"
+                                autocomplete="email" required>
+                            <i class='bx bx-envelope'></i>
+                        </span>
+                    </div>
+
+                    <div class="formField">
+                        <label for="password">Password</label>
+                        <span class="inputWrapper">
+                          <input type="password" id="password" name="password" placeholder="Password" required>
+                          <i class="bx bxs-lock-alt"></i>
+                        </span>
+                      </div>
+
+                    <div class="formField">
+                        <label for="phone">Phone Number</label>
+                        <span class="inputWrapper">
+                            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number"
+                                autocomplete="tel" required>
+                            <i class='bx bxs-contact'></i>
+
+                        </span>
+
+                    </div>
+
+                    <div class="formField">
+                        <label for="dob">Date of Birth</label>
+                        <span class="inputWrapper">
+                            <input type="date" id="dob" name="dob" required>
+
+                        </span>
+
+                    </div>
+                    <!--for radio buttons-->
+                    <div class="formField">
+                        <label class="radioLabel">Gender</label>
+                        <div class="radioGroup">
+                            <label for="male">
+                                <input type="radio" id="male" name="gender" value="male" required>
+                                Male
+                            </label>
+                            <label for="female">
+                                <input type="radio" id="female" name="gender" value="female" required>
+                                Female
+                            </label>
+                            <label for="other">
+                                <input type="radio" id="other" name="gender" value="other" required>
+                                Other
+                            </label>
+
+
+                        </div>
+                    </div>
+
+                    <!--for textarea -->
+                    <div class="textareaField">
+                        <!-- <label for="address">Address</label> -->
+                        <textarea id="address" name="address" placeholder="Enter your address" required></textarea>
+                    </div>
+
+                </fieldset>
+
+                <!-- for dropdown -->
+                <label class="dropdownLabel" for="membership">Membership Type</label>
+                <select class="dropdown" id="membership" name="membership" required>
+                    <option class="membership" selected value="">Select Membership</option>
+                    <option class="membership" value="regular">Regular</option>
+                    <option class="membership" value="associate">Associate</option>
+                    <option class="membership" value="visitor">Visitor</option>
+
+                </select>
+
+                <!-- for checkbox -->
+                <div class="checkboxField">
+                    <label for="newsletter">Subscribe to our newsletter</label>
+                    <input type="checkbox" id="newsletter" name="newsletter">
+
+                </div>
+
+                <div class="buttonGroup">
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+
+                </div>
+
+
+
+            </form>
+
+        </section>
+
+    </main>
+
+</body>
+
+</html>
